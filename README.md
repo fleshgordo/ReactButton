@@ -9,7 +9,7 @@ Written by Gordan Savicic, June 2016
 Grab sourcecode 
 
 ```
-git clone
+git clone https://github.com/fleshgordo/ReactButton
 ```
 
 Install node modules
