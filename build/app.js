@@ -132,9 +132,9 @@ var Home = (function (_React$Component) {
 	_createClass(Home, [{
 		key: 'handleClick',
 		value: function handleClick() {
-			var newCount = (this.state.clickCount + 1) % 8;
-			this.setState({ on: !this.state.on });
-			this.setState({ clickCount: newCount });
+			var newCount = (this.state.clickCount + 1) % this.buttonLabels.length;
+			this.setState({ on: !this.state.on, clickCount: newCount });
+			//this.setState({});
 			document.body.style.backgroundColor = this.generateRandomColour();
 		}
 	}, {
